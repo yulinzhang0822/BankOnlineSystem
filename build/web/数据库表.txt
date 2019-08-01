@@ -1,0 +1,11 @@
+mysql> create table card (id char(10) primary key,name varchar(20),number char(1
+8)not null,address varchar(200), phone char(11)not null,password char(6)not null
+);
+mysql> create table account (id char(10) ,subnumber char(5),money decimal(10,2) not null,
+moneytype char(1),savetype char(1), time char(8),nextyear float(2,2),deadline int(1),xucun int(1)
+,loss int(1),close int(1));
+mysql> create table card_number(current char(10));
+
+alter table card add loss int(1),close int(1);
+
+create table loss_time(card_id char(10),number char(18),time char(8));

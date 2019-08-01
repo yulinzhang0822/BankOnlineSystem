@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>贷款业务主界面</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background:url(Image/playground.jpg);background-size:cover;">
+    <center>
+        <b>
+            <font color="#0000ff" size="10" face="华文行楷">贷款业务办理</font>
+        </b>
+        <hr>
+    </center>
+    <center>
+        <form action="SelectLoanTypetwo.jsp" target="_self">
+            <p><input type="submit" style="background-color: transparent;font-size:20px;height:60px;width:200px;color:red" value="申请贷款" name="SelectLoanType" /></p>
+        </form>
+        <form action="CheckLoan.jsp" target="_self">
+            <p><input type="submit" style="background-color: transparent;font-size:20px;height:60px;width:200px;color:red" value="贷款申请记录" name="CheckLoan" /></p>
+        </form>
+        <form action="CheckLoaning.jsp" target="_self">
+            <p><input type="submit" style="background-color: transparent;font-size:20px;height:60px;width:200px;color:red" value="当前贷款进度" name="CheckCurLoan" /></p>
+        </form>
+        <form action="CheckLoanRate.jsp" target="_blank">
+            <p><input type="submit" style="background-color: transparent;font-size:20px;height:60px;width:200px;color:red" value="查询贷款利率" name="CheckLoanRate" /></p>
+        </form>
+        <form action="AboutLoan.jsp" target="_blank">
+            <p><input type="submit" style="background-color: transparent;font-size:20px;height:60px;width:200px;color:red" value="贷款规则" name="CheckLoanRules" /></p>
+        </form>
+        <form action="transaction.jsp" target="_self">
+            <p><input type="submit" style="background-color: transparent;font-size:20px;height:60px;width:200px;color:red" value="返回上一页" name="Back" /></p>
+        </form>
+    </center>
+</body>
+</html>
